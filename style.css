@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+.flex-container{
+    display: flex;
+    width: 40rem;
+    height:40rem;
+    border: 2px solid;
+    gap: 2px;
+}
+.flex-child1{
+    flex-basis:100px;
+    height: 100px;
+    width: 100px;
+    border: 2px solid red;
+}
+.flex-child2{
+    flex-basis:300px;
+    height: 100px;
+    width: 100px;
+    border:2px solid yellowgreen;
+}
+.flex-child3{
+    flex-basis:auto;
+    height: 100px;
+    width: 100px;
+    border:2px solid darkgreen;
+}
